@@ -1,0 +1,58 @@
+body {
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+    /* font-family: serif; */
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+div.col {
+    text-align: center;
+}
+
+div.b {
+    font-weight: bold;
+    background-color: #121212;
+    color: white;
+}
+
+div.scientific {
+    font-style: italic;
+}
+
+
+/* button CSS courtesy of W3Schools with some modifications */
+
+
+/* https://www.w3schools.com/css/css3_buttons.asp */
+
+.button {
+    background-color: none;
+    /* Green */
+    border-radius: 6px;
+    color: #3d8b40;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+/* button on hover pseudoclass */
+
+.button:hover {
+    background-color: #3d8b40;
+    color: #FFFFFF;
+}
+
+
+/* week 2 demo code */
+
+.justify-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
